@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bike-racer/static/css/main.abd64e84.css",
+    "main.js": "/bike-racer/static/js/main.13a8343c.js",
+    "static/media/qr-code.png": "/bike-racer/static/media/qr-code.50dd8de07d05104d988a.png",
+    "index.html": "/bike-racer/index.html",
+    "main.abd64e84.css.map": "/bike-racer/static/css/main.abd64e84.css.map",
+    "main.13a8343c.js.map": "/bike-racer/static/js/main.13a8343c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.13a8343c.js"
+  ]
+}

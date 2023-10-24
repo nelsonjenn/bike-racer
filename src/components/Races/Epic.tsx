@@ -1,36 +1,51 @@
 import { Box, Button } from '@mui/material';
-import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined';
+import BoltIcon from '@mui/icons-material/Bolt';
+
+import data from './AllResults.json';
+import { useEffect, useState } from 'react';
 import PaceChart from './PaceChart';
 import TimeChart from './TimeChart';
-import { useState, useEffect } from 'react';
-import { GraphData } from './Lutsen';
-import data from './AllResults.json';
-export default function Dakota50() {
+
+export type GraphData = {
+	year: number;
+	miles: number;
+	pace: number;
+	time: number;
+	race: string;
+};
+
+export default function Epic() {
 	const [graphData, setGraphData] = useState<GraphData[]>([]);
 
 	useEffect(() => {
 		const filteredData = data.filter(
-			(item) => item.race === 'Dakota 5-0'
+			(item) => item.race === 'Epic Bike Fest MTB'
 		) as unknown as GraphData[];
 		const ordered = filteredData.slice().sort((a, b) => a.year - b.year);
 		setGraphData(ordered);
 	}, []);
 	return (
 		<>
-			<h1>Dakota 5-0</h1>
+			<h1>Epic Bike Fest / </h1>
 			<Box>
 				<Button
 					target='_blank'
-					href='httBoxs://www.athlinks.com/event/374003/results/Event/1035580/Course/2306073/Bib/87'
+					href='https://my.raceresult.com/171629/#2_50D290'
 				>
-					2022 Results
+					2021 Results - Half Epic
 				</Button>
 				<Button
-					startIcon={<EmojiEventsOutlinedIcon />}
 					target='_blank'
-					href='https://dakotafiveo.itsyourrace.com/Results/6253/2023/123638/105'
+					href='https://my.raceresult.com/204502/results'
 				>
-					2023 Results
+					2022 Results - Full Epic - Full Gravel
+				</Button>
+				<Button
+					startIcon={<BoltIcon />}
+					target='_blank'
+					href='https://pttiming.com/road/2023/epicbikefest/results.html'
+				>
+					2023 Results - Full Epic - Full Gravel
 				</Button>
 			</Box>
 			<Box

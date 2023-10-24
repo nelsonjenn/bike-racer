@@ -2,6 +2,7 @@ import { Box, Button } from '@mui/material';
 import Header from './Header';
 import Lutsen from './Races/Lutsen';
 import Dakota50 from './Races/Dakota50';
+import Epic from './Races/Epic';
 
 export default function Races() {
 	return (
@@ -21,6 +22,7 @@ export default function Races() {
 			<Box>
 				<Lutsen />
 				<Dakota50 />
+				<Epic />
 			</Box>
 		</>
 	);

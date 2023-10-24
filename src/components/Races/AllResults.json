@@ -1,0 +1,74 @@
+[
+	{
+		"Year": 2022,
+		"race": "Lutsen 99er",
+		"time": 412,
+		"Pace": 13.9,
+		"Miles": 89.5,
+		"result": 134
+	},
+
+	{
+		"Year": 2022,
+		"race": "Epic Bike Fest MTB",
+		"time": 185,
+		"Pace": 10.9,
+		"Miles": 37.0,
+		"result": 92
+	},
+	{
+		"Year": 2022,
+		"race": "Epic Bike Fest Gravel",
+		"time": 286,
+		"Pace": 15.72,
+		"Miles": 75.0,
+		"result": 40
+	},
+	{
+		"Year": 2022,
+		"race": "Dakota 5-0",
+		"time": 316,
+		"Pace": 8.12,
+		"Miles": 50.0,
+		"result": 82
+	},
+	{
+		"Year": 2023,
+		"race": "Dakota 5-0",
+		"time": 279,
+		"Pace": 11.14,
+		"Miles": 50.0,
+		"result": 47
+	},
+	{
+		"Year": 2023,
+		"race": "Lutsen 99er",
+		"time": 351,
+		"Pace": 14.64,
+		"Miles": 85.9,
+		"result": 48
+	},
+	{
+		"Year": 2023,
+		"race": "Flint Hills",
+		"time": 344,
+		"Pace": 15.31,
+		"Miles": 87.9,
+		"result": 36
+	},
+	{
+		"Year": 2023,
+		"race": "Epic Bike Fest MTB",
+		"time": 203,
+		"Pace": 11.9,
+		"Miles": 37,
+		"result": 50
+	},
+	{
+		"Year": 2023,
+		"race": "Epic Bike Fest Gravel",
+		"time": 316,
+		"Pace": 13.2,
+		"Miles": 89
+	}
+]
